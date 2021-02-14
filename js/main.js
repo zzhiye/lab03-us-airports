@@ -99,11 +99,13 @@ legend.addTo(mymap);
 // Add a scale bar to map
 L.control.scale({position: 'bottomleft'}).addTo(mymap);
 
+// Extra credit
+// Add ruler to allow user to measure distances 
 L.control.ruler({
   position: 'topleft',
   lengthUnit: {
-    factor: 0.539956803,    //  from km to nm
-    display: 'Nautical Miles',
+    factor: null,    
+    display: 'km',
     decimal: 2
   }
 }).addTo(mymap);
