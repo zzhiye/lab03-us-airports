@@ -6,11 +6,11 @@ This repository contains the neccessary files to create and display an interacti
 
 ## Primary Functions of this Web Map
 * **Overall Purpose**: The functionality of this web map is to communicate the airport count throughout the US and show whether air control tower is present or not.
-* **Base map, Legend, and choropleth layer**: These functionalities provide visual enhancements to the web map. For instance, the light color base map provided by CartoDB helps draw focus to the US choropleth layer and air control tower icons. The legend provides insight on air control tower presence and airport count by state, which is associated with the choropleth layer.
+* **Base Map, Legend, and Choropleth Layer**: These functionalities provide visual enhancements to the web map. For instance, the light color base map provided by CartoDB helps draw focus to the US choropleth layer and air control tower icons. The legend provides insight on air control tower presence and airport count by state, which is associated with the choropleth layer.
 * **Air Control Tower Icons**: This functionality helps user identify whether or not a air control tower is present. Additionally, users can click on the icon to display the airport name.
 * **Zoom**: This functionality allows the user to zoom in and out of the map to view select portions of the US.
 * **Leaflet-ruler**: This functionality was added from Leaflet Plugins to allow the user to measure distances from location to another.
-* **Scale bar**: This functionality provides a visual indication of distance and feature size of the map.
+* **Scale Bar**: This functionality provides a visual indication of distance and feature size of the map.
 * **Credits**: This functionality provides information regarding the data source and map author.
 
 ## Libraries
