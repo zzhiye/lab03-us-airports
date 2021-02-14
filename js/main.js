@@ -100,7 +100,8 @@ legend.addTo(mymap);
 L.control.scale({position: 'bottomleft'}).addTo(mymap);
 
 // Extra credit
-// Add ruler to allow user to measure distances 
+// Add ruler to allow user to measure distances
+// Ruler feature link: https://github.com/gokertanrisever/leaflet-ruler
 L.control.ruler({
   position: 'topleft',
   lengthUnit: {                 
