@@ -103,10 +103,11 @@ L.control.scale({position: 'bottomleft'}).addTo(mymap);
 // Add ruler to allow user to measure distances 
 L.control.ruler({
   position: 'topleft',
-  lengthUnit: {
-    factor: null,    
-    display: 'km',
-    decimal: 2
-  }
+  lengthUnit: {                 
+    display: 'km',              
+    decimal: 2,                
+    factor: null,             
+    label: 'Distance:'           
+  },
 }).addTo(mymap);
 
