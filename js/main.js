@@ -99,5 +99,13 @@ legend.addTo(mymap);
 // Add a scale bar to map
 L.control.scale({position: 'bottomleft'}).addTo(mymap);
 
-L.control.ruler().addTo(mymap);
+var options = {
+  position: 'topleft',
+  lengthUnit: {
+    factor: 0.539956803,    //  from km to nm
+    display: 'Nautical Miles',
+    decimal: 2
+  }
+};
+L.control.ruler(options).addTo(mymap);
 
