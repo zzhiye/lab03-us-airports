@@ -104,9 +104,9 @@ L.control.scale({position: 'bottomleft'}).addTo(mymap);
 L.control.ruler({
   position: 'topleft',
   lengthUnit: {                 
-    display: 'meters',              
-    decimal: 2,                
-    factor: 1000,             
+    display: 'km',              
+    decimal: 2,        
+    factor: null,               
     label: 'Distance:'           
   },
 }).addTo(mymap);
